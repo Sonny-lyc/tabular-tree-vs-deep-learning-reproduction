@@ -19,7 +19,11 @@ set (the paper's medium-size setting) and reproduces:
    - adding uncorrelated standard Gaussian noise features.
 2. **Finding 3 — sensitivity to random orthogonal rotations**
    - Gaussianized features are rotated with random orthogonal matrices and the
-     accuracy of an MLP is compared with tree-based models.
+     accuracy of an MLP is compared with the two tree models,
+     **RandomForest** and **HistGradientBoosting (HistGB)**.
+
+The neural model is a multilayer perceptron (**MLP**), and the two tree models
+used throughout are **RandomForest** and **HistGradientBoosting (HistGB)**.
 
 ## Setup
 
@@ -38,6 +42,14 @@ pip install -r requirements.txt
 python reproduce.py                 # writes CSVs to results/
 python make_figures.py              # writes PNGs to figures/
 ```
+
+## Figures
+
+![Removing the least important features](figures/remove_features.png)
+
+![Adding Gaussian noise features](figures/add_features.png)
+
+![Random rotation of features](figures/rotations.png)
 
 ## Reproduced results
 
