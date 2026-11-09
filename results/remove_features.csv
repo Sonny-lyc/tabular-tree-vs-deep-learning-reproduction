@@ -1,0 +1,13 @@
+experiment,fraction_removed,n_features_kept,model,accuracy
+remove_features,0.0,8,MLP,0.8152752605346625
+remove_features,0.0,8,RandomForest,0.8652865881286814
+remove_features,0.0,8,HistGB,0.8823062981422746
+remove_features,0.2,6,MLP,0.7997281377435432
+remove_features,0.2,6,RandomForest,0.8503341640235614
+remove_features,0.2,6,HistGB,0.8581502038966924
+remove_features,0.4,5,MLP,0.8036078386950611
+remove_features,0.4,5,RandomForest,0.8517217942908926
+remove_features,0.4,5,HistGB,0.8549218396012687
+remove_features,0.6,3,MLP,0.7951687811508835
+remove_features,0.6,3,RandomForest,0.8462279111916629
+remove_features,0.6,3,HistGB,0.8549501585863163

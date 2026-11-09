@@ -1,0 +1,16 @@
+experiment,n_added,model,accuracy
+add_features,0,MLP,0.8114805165382872
+add_features,0,RandomForest,0.8637007249660172
+add_features,0,HistGB,0.8823062981422746
+add_features,5,MLP,0.7859367920253738
+add_features,5,RandomForest,0.8413570457634798
+add_features,5,HistGB,0.8620015858631627
+add_features,10,MLP,0.7782623470774808
+add_features,10,RandomForest,0.8311055731762573
+add_features,10,HistGB,0.8565926597190757
+add_features,20,MLP,0.7625169913910286
+add_features,20,RandomForest,0.815501812415043
+add_features,20,HistGB,0.8505040779338469
+add_features,50,MLP,0.7448176257362936
+add_features,50,RandomForest,0.7917421839601269
+add_features,50,HistGB,0.8431977797915723
